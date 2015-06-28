@@ -14,11 +14,14 @@ body {
 }
 
 .page {
-  background: red;
-  height: 100vh;
+  background: #1d2e41;
+  color: #FFF;
   background-position: top left;
   background-size: cover;
   border: 20px solid #FFF;
+  @media(min-width:980px) {
+    height: 100vh;
+  }
 }
 
 @media (min-width:768px) {

@@ -1,0 +1,41 @@
+// bower:scss
+@import "normalize-scss/_normalize.scss";
+// endbower
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.page {
+  background: red;
+  height: 100vh;
+  background-position: top left;
+  background-size: cover;
+  border: 20px solid #FFF;
+}
+
+@media (min-width:768px) {
+  .page--1 {
+    background-image: url(../images/page-1.jpg);
+  }
+
+  .page--2 {
+    background-image: url(../images/page-2.jpg);
+  }
+
+  .page--3 {
+    background-image: url(../images/page-3.jpg);
+  }
+
+  .page--4 {
+    background-image: url(../images/page-4.jpg);
+  }
+}
+
